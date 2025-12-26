@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Vuthy-Tourn/nextjs-movie'
+                    url: 'https://github.com/Vuthy-Tourn/nextjs-space-tourism'
             }
         }
 
