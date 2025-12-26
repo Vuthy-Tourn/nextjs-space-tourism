@@ -5,11 +5,6 @@ pipeline {
         nodejs 'node20'  // Make sure NodeJS 20 is installed in Jenkins
     }
 
-    environment {
-        # Add env variables if your Next.js app uses any
-        # NEXT_PUBLIC_API_URL = "https://api.example.com"
-    }
-
     stages {
 
         stage('Checkout') {
